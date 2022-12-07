@@ -1,0 +1,46 @@
+.App {
+  text-align: center;
+  margin: 15px;
+}
+
+.navbar-nav {
+  flex-direction: row;
+  gap: 15px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.form__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form__item p {
+  color: red;
+  font-size: 12px;
+}
+
+.contenedor-imagen {
+  width: 300px;
+}
+
+.contenedor-imagen img {
+  width: 100%;
+}
+
+.contenedor-principal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.books-home__create {
+  float: right;
+  margin: 10px 0px;
+}
